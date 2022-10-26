@@ -26,8 +26,8 @@ public class Main {
         }
         //
         System.out.println("Task3");
-        int year = 2021;
-        if (year % 4 == 0 && year % 400 != 0) {
+        int year = 2020;
+        if (year % 4 == 0 && year % 400 != 0 || year % 400 ==0) {
             System.out.println(year + " год високосный");
         } else {
             System.out.println(year + " год не високосный");
