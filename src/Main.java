@@ -32,5 +32,17 @@ public class Main {
         } else {
             System.out.println(year + " год не високосный");
         }
+        //
+        System.out.println("Task4");
+        int deliveryDist = 95;
+        if (deliveryDist >0 && deliveryDist <=20) {
+            System.out.println("Потребуется дней: 1");
+        } else if (deliveryDist > 20 && deliveryDist <=60) {
+            System.out.println("Потребуется дней: 2");
+        } else if (deliveryDist > 60 && deliveryDist <=100) {
+            System.out.println("Потребуется дней: 3");
+        } else {
+            System.out.println("Доставка не возможна");
+        }
     }
 }
