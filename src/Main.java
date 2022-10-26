@@ -7,5 +7,21 @@ public class Main {
         } else if (clientOS == 1) {
             System.out.println("Установите версию для Андроид по ссылке");
         }
+        System.out.println("Task2");
+        int dateOS = 2014;
+        if (dateOS >= 2015) {
+            if (clientOS == 0) {
+                System.out.println("Установите версию для IOS по ссылке");
+            }else if (clientOS == 1 ) {
+                System.out.println("Установите версию для Андроид по ссылке");
+            }
+        }
+        if (dateOS < 2015) {
+            if (clientOS == 0) {
+                System.out.println("Установите облегченную версию приложения для IOS по ссылке");
+            }else if (clientOS == 1) {
+                System.out.println("Установите облегченную версию приложения для Андроид по ссылке");
+            }
+        }
     }
 }
