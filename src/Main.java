@@ -44,5 +44,32 @@ public class Main {
         } else {
             System.out.println("Доставка не возможна");
         }
+        //
+        System.out.println("Task5");
+        int month = 14;
+        switch (month) {
+            case 12:
+            case 1:
+            case 2:
+                System.out.println("ЗИМА");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("SRPING");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("SUMMER");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("AUTUMN");
+                break;
+            default:
+                System.out.println("Такого месяца нет");
+        }
     }
 }
